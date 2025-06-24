@@ -1,0 +1,23 @@
+{
+  "name": "gitleaks-secret-scanner-ci-demo",
+  "version": "1.0.0",
+  "description": "A demo repository for testing gitleaks-secret-scanner in a GitHub Actions CI environment.",
+  "main": "index.js",
+  "private": true,
+
+"scripts": {
+    "test-local-staged": "gitleaks-secret-scanner",
+    "test-local-all": "gitleaks-secret-scanner --diff-mode all --html-report"
+  },
+  "author": "criisv7",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/criisv7/gitleaks-secret-scanner-ci-demo.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/criisv7/gitleaks-secret-scanner-ci-demo/issues"
+  },
+  "homepage": "https://github.com/criisv7/gitleaks-secret-scanner-ci-demo#readme"
+}
